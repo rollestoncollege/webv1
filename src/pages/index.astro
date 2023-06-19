@@ -1,81 +1,152 @@
----
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
----
+<!DOCTYPE html>
+<html lang="en">
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HuskyNZ</title>
+  <link rel="stylesheet"
+    href="https://serv.hnz.li/lib/bootstrap/dist/css/bootstrap.min.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <link rel="stylesheet"
+    href="https://serv.hnz.li/css/site.css?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB" />
+  <!--Pulles in favicon and fonts from the alternitive current branch-->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://serv.hnz.li/logo/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://serv.hnz.li/logo/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://serv.hnz.li/logo/favicon_io/favicon-16x16.png">
+  <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="huskynz"> </script>
+<!-- <script>
+  function initFreshChat() {
+    window.fcWidget.init({
+      token: "e52ae857-a290-4eb3-bdd3-cb1fb2fbf24b",
+      host: "https://huskynz-help-help.freshchat.com"
+    });
+  }
 
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
+  function initialize(i, t) {
+    var e;
+    i.getElementById(t) ?
+      initFreshChat() : ((e = i.createElement("script")).id = t, e.async = !0,
+        e.src = "https://huskynz-help-help.freshchat.com/js/widget.js", e.onload = initFreshChat, i.head.appendChild(e))
+  }
+
+  function initiateCall() {
+    initialize(document, "Freshchat-js-sdk")
+  }
+  window.addEventListener ? window.addEventListener("load", initiateCall, !1) :
+    window.attachEvent("load", initiateCall, !1);
+</script>
+-->
+<script type="text/javascript">
+  (function (c, l, a, r, i, t, y) {
+    c[a] = c[a] || function () {
+      (c[a].q = c[a].q || []).push(arguments)
+    };
+    t = l.createElement(r);
+    t.async = 1;
+    t.src = "https://www.clarity.ms/tag/" + i;
+    y = l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t, y);
+  })(window, document, "clarity", "script", "fy4b3y9xuz");
+</script>
+
+</head>
+
+<body>
+  <header>
+    <nav b-3tnlbj4u0l
+      class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <div b-3tnlbj4u0l class="container-fluid">
+        <a class="navbar-brand" href="/">Rolleston College Film Club</a>
+        <button b-3tnlbj4u0l class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span b-3tnlbj4u0l class="navbar-toggler-icon"></span>
+        </button>
+        <div b-3tnlbj4u0l class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <ul b-3tnlbj4u0l class="navbar-nav flex-grow-1">
+            <!-- LOGO now on the current branch -->
+            <div b-3tnlbj4u0l class="logo"> <img b-3tnlbj4u0l
+                src="https://storage.filmclub.tech/index.php/apps/theming/icon?v=e6c3dd63"
+                width="50" height="50"></img> </div>
+            <!--Nav main items-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/">Home</a>
+            </li>
+
+			<!--
+             <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/downloads">HuskyNZ Download Centre</a>
+            </li>
+			-->
+            <!--Support-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/support">Support Centre</a>
+            </li>
+          <!--Projects-->
+
+
+
+
+
+
+
+
+
+            <!--Do not add nav below This Add nav items above this line-->
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/Privacy">Privacy</a>
+            </li>
+            <li b-3tnlbj4u0l class="nav-item">
+              <a class="nav-link text-dark" href="/Pages/toc">Terms of use</a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div b-3tnlbj4u0l class="container">
+    <main b-3tnlbj4u0l role="main" class="pb-3">
+<body>
+
+  <div class="Maincontent">
+    <h1>Welcome to Rolleston College Film Club </h1>
+
+    <p>
+	We need to put content here
+    </p>
+    <p>
+  </div>
+
+
+
+</body>
+  </div>
+
+  <footer>
+    </div>
+  </footer>
+  </section>
+  </main>
+  </div>
+
+  <footer b-3tnlbj4u0l class="border-top footer text-muted">
+
+    <div b-3tnlbj4u0l class="container">
+ This site is run by HuskyNZ designed by the Film Club Team | &copy; 2022 - 2023| HuskyNZ | <a href="https://legal.filmclub.tech/Privacy-Policy</a> | <a href="https://legal.filmclub.tech/toc">TERMS OF USE</a> | <a href="https://hnz.li/status">HuskyNZ Status</a>
+    </div>
+  </footer>
+  <script
+    src="https://serv.hnz.li/lib/jquery/dist/jquery.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script
+    src="https://serv.hnz.li/lib/bootstrap/dist/js/bootstrap.bundle.min.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+  <script src="https://serv.hnz.li/js/site.js?t_-IOF5WTLZwNrxyQK9PZrr66PBLLrYBttjt8VJbyg8OBiFedhTVJkzB">
+  </script>
+
+</body>
+
+</html>
